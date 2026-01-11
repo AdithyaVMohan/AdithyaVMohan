@@ -1,0 +1,52 @@
+.productDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap:10px;
+}
+.productcardwidth {
+  width: 225px;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;   /* ↑ stack vertically inside card */
+  gap: 8px;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+.img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+.para {
+  background-color: white;
+  height: 90px;
+  font-size: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10px;
+}
+.h4 {
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+}
+.h3 {
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15px;
+  overflow: hidden; 
+}
+.p {
+  margin: 0;
+  text-align: center;
+  height: 50px;     
+  overflow: hidden; 
+  font-size: 12px;
+}
