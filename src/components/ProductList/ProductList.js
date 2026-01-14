@@ -102,11 +102,15 @@ const ProductList = () => {
   ];
 
   return (
-    <div className={styles.productDiv}>
-      {products.map((p) => (
-        <ProductCard key={p.id} product={p} />
-      ))}
-    </div>
+    <>
+      <div className={styles.productDiv}>
+        {
+          products.map((p)=>{
+            return <ProductCard product={p}/>
+          })
+        }
+      </div>
+    </>
   );
 };
 

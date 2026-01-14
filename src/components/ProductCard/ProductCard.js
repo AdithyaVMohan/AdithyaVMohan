@@ -1,4 +1,5 @@
-import styles from '../ProductCard/productCard.module.css';
+import { Link } from 'react-router-dom';
+import styles from './productCard.module.css';
 
 function ProductCard(props) {
   const { product: prod } = props;
@@ -6,10 +7,12 @@ function ProductCard(props) {
   return (
     <div className={styles.productcardwidth}>
       <img className={styles.img} src={prod.image} alt={prod.title} />
-      <h3 className={styles.h3}>{prod.title}</h3>
+      <div>
+        <Link to={"/products/"+prod.id}><h6 className={styles.h6}>{prod.title}</h6></Link>
+      </div>
       <p className={styles.p}>{prod.description}</p>
       <div>Rating: {prod.rating.rate} ⭐</div>
-      <h3>₹{prod.price}</h3>
+      <h5>₹{prod.price}</h5>
     </div>
   );
 }
