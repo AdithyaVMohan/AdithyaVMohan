@@ -1,0 +1,15 @@
+.outerdiv{
+    font-family: 'Courier New', Courier, monospace;
+}
+.outerdiv h2{
+    color:rgb(116, 10, 216);
+    font-weight: 550;
+}
+.outerdiv h4{
+    color:rgb(2, 199, 35);
+    font-weight: 550;
+}
+.outerdiv h5{
+    color:rgb(199, 2, 120);
+    font-weight: 550;
+}

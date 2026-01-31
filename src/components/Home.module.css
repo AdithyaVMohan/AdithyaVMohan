@@ -1,0 +1,91 @@
+.maindiv {
+  background: rgb(241, 241, 241) !important;
+  height: 528px;
+  display:flex;
+}
+.profilephoto{
+  border-radius: 50%;
+  height: 400px;
+  padding-top: 70px;
+  padding-left: 70px;
+  justify-content: center;
+}
+.myname{
+  padding-top: 120px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight:900;
+  font-size: 45px;;
+}
+.customNavItem{
+  font-family:'Courier New', Courier, monospace;
+}
+.sub1{
+  display: flex;
+}
+.sub2{
+  flex-direction: column; 
+  display: flex;
+  padding-left: 50px;
+}
+.sub3{
+  flex-direction: row;
+}
+
+.subtitle{
+  font-size: 28px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 500;
+  padding-top: 0;
+  margin-top: 0;
+  line-height: 0.3;
+  padding-left: 70px;
+  color:#030fbc
+}
+.emaildiv{
+  font-size: 15px;
+  font-family:'Courier New', Courier, monospace;
+  line-height: 3.0;
+  display: flex;
+  padding-top: 25px;
+  padding-right: 5px;
+}
+.icon1{
+  padding-top: 14px;
+  color: #cc0909;
+}
+.icon2{
+  padding-top: 14px;
+  padding-left: 33px;
+  color: #05a91d;
+}
+.icon3 {
+  color: #0a66c2;
+  font-size: 20px;
+}
+.linkin{
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+}
+.linkin a{
+  color: black;
+  text-decoration: none;
+} 
+.aboutme {
+  max-width: 900px;        /* keeps text readable */
+  margin: 40px auto;       /* centered with spacing */
+  padding: 20px;           
+  background: #fafafa;     /* light background */
+  border-radius: 10px;     /* smooth corners */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08); /* soft shadow */
+  font-family:'Courier New', Courier, monospace; /* modern font */
+}
+.aboutme h4{
+  color: rgb(0, 197, 0);
+  font-weight: 550;
+}
+.aboutme p {
+  font-size: 1.00rem;      /* easy reading size */
+  line-height: 1.6;        /* comfortable spacing */
+  color: #333;             /* dark text */
+  text-align: justify;      /* smooth edges on both sides */
+}
