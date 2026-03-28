@@ -1,5 +1,4 @@
 .maindiv {
-  background: rgb(241, 241, 241) !important;
   height: 528px;
   display:flex;
 }
@@ -48,6 +47,7 @@
   display: flex;
   padding-top: 25px;
   padding-right: 5px;
+  padding-left:35px;
 }
 .icon1{
   padding-top: 14px;
@@ -69,6 +69,7 @@
 .linkin a{
   color: black;
   text-decoration: none;
+  padding-left:35px;
 } 
 .aboutme {
   max-width: 900px;        /* keeps text readable */
