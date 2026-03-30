@@ -12,11 +12,11 @@ function App() {
     <div className="app-background" style={{ backgroundImage: `url(${process.env.PUBLIC_URL + "/images/back.avif"})` }}>
       <Navbar />
       <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/AboutMe" element={<AboutMe />} />
-          <Route path="/Projects" element={<Projects />} />
-          <Route path="/Experience" element={<Experience />} />
-          <Route path="/Certifications" element={<Certifications />} />
+          <Route path="/" element={<Home/>} />
+          <Route path="/AboutMe" element={<AboutMe/>} />
+          <Route path="/Projects" element={<Projects/>} />
+          <Route path="/Experience" element={<Experience/>} />
+          <Route path="/Certifications" element={<Certifications/>} />
       </Routes>
    </div>
   );
