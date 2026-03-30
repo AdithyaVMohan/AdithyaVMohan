@@ -1,4 +1,3 @@
-import photo from "./images/adhiss.png";
 import styles from "./Home.module.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone} from "@fortawesome/free-solid-svg-icons";
@@ -10,7 +9,7 @@ function Home() {
     <div className={styles.maindiv}>
       <div className={styles.sub1}>
           <div className={styles.photodiv}>
-            <img className={styles.profilephoto} src={photo} alt="Profile"/>
+            <img className={styles.profilephoto} src="/images/adhiss.png" alt="Profile"/>
           </div>
           <div className={styles.sub2}>
             <div className={styles.sub3}>

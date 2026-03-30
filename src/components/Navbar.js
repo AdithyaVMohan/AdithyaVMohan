@@ -1,4 +1,3 @@
-import logo from "./images/adithyalogo.jpeg";
 import { NavLink } from "react-router-dom";
 import styles from "./Home.module.css"
 
@@ -6,7 +5,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark border-bottom border-body" style={{backgroundColor: "#000"}} data-bs-theme="dark">
       <div className="container-fluid">
-        <img src={logo} alt="logo" height={22} />
+        <img src="/images/adithyalogo.jpeg" alt="logo" height={22} />
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" >
           <span className="navbar-toggler-icon"></span>
         </button>

@@ -9,7 +9,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="app-background">
+    <div className="app-background" style={{ backgroundImage: `url(${process.env.PUBLIC_URL + "/images/back.avif"})` }}>
       <Navbar />
       <Routes>
           <Route path="/" element={<Home />} />

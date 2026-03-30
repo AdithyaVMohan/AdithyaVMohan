@@ -20,9 +20,9 @@ function Certifications() {
                     <div class="col-md-4">
                     <div class="card shadow-sm h-100">
                         <div class="card-body">
-                        <h5 class="card-title">PL-300: Power BI Data Analyst</h5>
-                        <p class="card-text"><strong>Issuing Organization:</strong> Microsoft</p>
-                        <p class="card-text"><strong>Valid:</strong> Jan 2025 – Jan 2026</p>
+                        <h5 class="card-title">GitHub Copilot Certification</h5>
+                        <p class="card-text"><strong>Issuing Organization:</strong> GitHub</p>
+                        <p class="card-text"><strong>Valid:</strong> March 2025 – March 2028</p>
                         </div>
                     </div>
                     </div>
@@ -30,9 +30,9 @@ function Certifications() {
                     <div class="col-md-4">
                     <div class="card shadow-sm h-100">
                         <div class="card-body">
-                        <h5 class="card-title">GitHub Copilot Certification</h5>
-                        <p class="card-text"><strong>Issuing Organization:</strong> GitHub</p>
-                        <p class="card-text"><strong>Valid:</strong> March 2025 – March 2028</p>
+                        <h5 class="card-title">PL-300: Power BI Data Analyst</h5>
+                        <p class="card-text"><strong>Issuing Organization:</strong> Microsoft</p>
+                        <p class="card-text"><strong>Valid:</strong> Jan 2025 – Jan 2026</p>
                         </div>
                     </div>
                     </div>
