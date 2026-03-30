@@ -10,7 +10,7 @@ function Home() {
     <div className={styles.maindiv}>
       <div className={styles.sub1}>
           <div className={styles.photodiv}>
-            <img className={styles.profilephoto} src={photo}/>
+            <img className={styles.profilephoto} src={photo} alt="Profile"/>
           </div>
           <div className={styles.sub2}>
             <div className={styles.sub3}>
