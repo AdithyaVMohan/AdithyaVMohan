@@ -26,9 +26,6 @@ function Navbar() {
             <li className="nav-item mx-4">
               <NavLink to="/Certifications" className="nav-link">Certifications</NavLink>
             </li>
-            {/* <li className="nav-item mx-4">
-              <NavLink to="/Contact" className="nav-link">Contact</NavLink>
-            </li> */}
           </ul>
         </div>
       </div>
