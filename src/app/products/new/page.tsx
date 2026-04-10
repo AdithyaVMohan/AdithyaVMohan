@@ -13,7 +13,7 @@ export default function AddProduct() {
   const handleAdd = () => {
     console.log({ title, price, image });
     alert("Product added!");
-    router.push("/product"); // go back to product list
+    router.push("/product"); 
   };
 
   return (

@@ -16,14 +16,14 @@ export default function CategoryPage() {
   const [image, setImage] = useState("");
   const [editingId, setEditingId] = useState<number | null>(null);
 
-  // ✅ Direct API call (NO route file)
+  // API call 
   useEffect(() => {
     fetch("https://api.escuelajs.co/api/v1/categories")
       .then((res) => res.json())
       .then((data) => setCategories(data));
   }, []);
 
-  // OPEN ADD / EDIT
+  // ADD / EDIT
   const handleOpen = (category?: Category) => {
     if (category) {
       setEditingId(category.id);
@@ -40,7 +40,7 @@ export default function CategoryPage() {
   const handleSave = async () => {
   try {
     if (editingId) {
-      // ✅ UPDATE CATEGORY (PUT request)
+      // UPDATE CATEGORY
       await fetch(`https://api.escuelajs.co/api/v1/categories/${editingId}`, {
         method: "PUT",
         headers: {
@@ -58,7 +58,7 @@ export default function CategoryPage() {
         )
       );
     } else {
-      // ✅ CREATE CATEGORY (POST request)
+      // CREATE CATEGORY
       const res = await fetch("https://api.escuelajs.co/api/v1/categories/", {
         method: "POST",
         headers: {
@@ -81,7 +81,7 @@ export default function CategoryPage() {
   }
 };
 
-  // DELETE (frontend only)
+  // DELETE 
   const handleDelete = (id: number) => {
     setCategories((prev) => prev.filter((c) => c.id !== id));
   };
@@ -120,7 +120,6 @@ export default function CategoryPage() {
         </Box>
       ))}
 
-      {/* Dialog */}
       <Dialog open={open} onClose={() => setOpen(false)}>
         <DialogTitle>{editingId ? "Edit Category" : "Add Category"}</DialogTitle>
 

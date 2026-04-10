@@ -167,7 +167,6 @@ export default function ProductList() {
     },
   ];
 
-  // Convert products to rows
   const rows = products.map((p) => ({
     id: p.id,
     title: p.title,
@@ -177,7 +176,6 @@ export default function ProductList() {
 
  return (
   <Paper sx={{ padding: 2, marginTop: 2 }}>
-    {/* Header */}
      <Navbar />
     <Box display="flex" justifyContent="space-between" alignItems="center" mb={2}>
       <h2 style={{ color: theme.palette.primary.main }}>Product List</h2>
@@ -186,7 +184,6 @@ export default function ProductList() {
       </Button>
     </Box>
 
-    {/* DataGrid */}
     <DataGrid
       rows={rows}
       columns={columns}
@@ -214,7 +211,6 @@ export default function ProductList() {
       </DialogActions>
     </Dialog>
 
-    {/* Edit Dialog */}
     {editingProduct && (
       <Dialog open={openDialog} onClose={handleCloseDialog}>
         <DialogTitle>Edit Product</DialogTitle>
