@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Grade System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-card">
+        <div class="navbar">
+            <div class="logo">🌿</div>
+            <div class="title">GreenGrade Portal</div>
+        </div>
+        <div class="container">
+           <form onsubmit="addStudent(event)">
+                <div class="section">
+                    <h3>Add Student</h3>
+                    <input id="studentName" placeholder="Student Name" required>
+                    <select id="subject"></select>
+                    <input id="grade" type="number" placeholder="Grade" required>
+                    <button type="submit">Add</button>
+                    <p id="remarks"></p>
+                </div>
+            </form>
+
+            <div lass="section">
+                <h3>Search & Filter</h3>
+                <input id="search" placeholder="Search Student">
+                <select id="filter">
+                    <option value="">All</option>
+                    <option value="PASS">PASS</option>
+                    <option value="FAIL">FAIL</option>
+                </select>
+                <button onclick="loadStudents()">Search</button>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Subject</th>
+                        <th>Grade</th>
+                        <th>Remarks</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="table"></tbody>
+            </table>
+        </div>
+    </div>
+    <div id="editModal" class="modal">
+        <div class="modal-content">
+            <h2>Edit Student</h2>
+            <input type="hidden" id="editId">
+            <input id="editName" placeholder="Student Name">
+            <select id="editSubject"></select>
+            <input id="editGrade" type="number" placeholder="Grade">
+            <p id="editRemarks"></p>
+            <button onclick="updateStudent()">Update</button>
+            <button onclick="closeModal()">Cancel</button>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
