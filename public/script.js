@@ -1,4 +1,4 @@
-const API = "http://localhost:5000";
+const API = "https://adithyavmohan.onrender.com";
 
 async function loadSubjects() {
     const res = await fetch(`${API}/subjects`);
