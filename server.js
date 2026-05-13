@@ -7,9 +7,12 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://127.0.0.1:27017/studentdb")
-.then(() => console.log("MongoDB Connected"))
-.catch(err => console.log(err));
+mongoose.connect(process.env.MONGO_URI)
+  .then(() => console.log("MongoDB Connected"))
+  .catch(err => {
+    console.log("MongoDB Connection Failed");
+    console.log(err.message);
+});
 
 const Subject = require("./models/Subject");
 const Student = require("./models/Student");
@@ -105,6 +108,8 @@ app.put("/students/:id", async (req, res) => {
 });
 
 
-app.listen(5000, () => {
-    console.log("Server running on port 5000");
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, () => {
+    console.log("Server running on port", PORT);
 });
