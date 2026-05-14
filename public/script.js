@@ -1,5 +1,5 @@
-// const API = "https://adithyavmohan.onrender.com";
-const API = "http://localhost:5000";
+const API = "https://adithyavmohan.onrender.com";
+//const API = "http://localhost:5000";
 
 async function loadSubjects() {
     const res = await fetch(`${API}/api/subjects`);
