@@ -175,7 +175,7 @@ tr:nth-child(even) {
 }
 .input-row {
     display: flex;
-    width: 60%;
+    width: 65%;
     gap: 10px;
 }
 .input-row input {
@@ -198,7 +198,7 @@ tr:nth-child(even) {
 }
 .search-row {
     display: flex;
-    width: 60%;          
+    width: 65%;          
     gap: 10px;
     align-items: center;
 }
@@ -218,7 +218,6 @@ tr:nth-child(even) {
     display: flex;
     gap: 6px;
 }
-
 .editbtn,
 .cardbutton {
     all: unset;
@@ -227,11 +226,9 @@ tr:nth-child(even) {
     padding: 2px 6px;
     border-radius: 4px;
 }
-
 .editbtn:hover {
     background: #e0f0ff;
 }
-
 .cardbutton:hover {
     background: #ffe5e5;
 }

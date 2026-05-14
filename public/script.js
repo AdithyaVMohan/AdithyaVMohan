@@ -16,17 +16,9 @@ async function loadSubjects() {
         container.innerHTML += `
             <div class="subject-card">
                 <span>${s.subjectName}</span>
-
                 <div class="subject-actions">
-                    <button class="editbtn"
-                        onclick="editSubject('${s._id}','${s.subjectName}')">
-                        ✏️
-                    </button>
-
-                    <button class="cardbutton"
-                        onclick="deleteSubject('${s._id}')">
-                        ❌
-                    </button>
+                    <button class="editbtn" onclick="editSubject('${s._id}','${s.subjectName}')"> ✏️</button>
+                    <button class="cardbutton" onclick="deleteSubject('${s._id}')">❌</button>
                 </div>
             </div>
         `;
@@ -188,17 +180,12 @@ function updateRemarks(inputId, outputId) {
 }
 
 async function editSubject(id, oldName) {
-
     const newName = prompt("Edit Subject Name", oldName);
-
     if (!newName) return;
-
-    // validation
     if (!/^[a-zA-Z\s]+$/.test(newName)) {
         alert("Subject name must contain only letters");
         return;
     }
-
     await fetch(`${API}/api/subjects/${id}`, {
         method: "PUT",
         headers: {
@@ -208,7 +195,6 @@ async function editSubject(id, oldName) {
             subjectName: newName
         })
     });
-
     loadSubjects();
     loadStudents();
 }
