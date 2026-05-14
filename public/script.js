@@ -34,7 +34,7 @@ async function deleteSubject(id) {
 }
 
 async function addSubject() {
-    const subjectName = document.getElementById("subjectName").value.trim();
+    const subjectName = document.getElementById("subjectName").value.trim().toLowerCase();;
     if (!subjectName) {
         alert("Enter subject name");
         return;
