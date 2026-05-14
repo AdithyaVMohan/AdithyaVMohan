@@ -13,24 +13,36 @@
         <div class="container">
            <form onsubmit="addStudent(event)">
                 <div class="section">
-                    <h3>Add Student</h3>
-                    <input id="studentName" placeholder="Student Name" required>
+                    <h3>Student</h3>
+                    <input id="studentName" type="text" placeholder="Student Name" required>
                     <select id="subject"></select>
                     <input id="grade" type="number" placeholder="Grade" required>
-                    <button type="submit">Add</button>
+                    <button type="submit">Add Student</button>
                     <p id="remarks"></p>
                 </div>
             </form>
+            <div class="section">
+                <h3>Subject</h3>
+                <div class="input-row">
+                    <input id="subjectName" placeholder="Subject Name" required>
+                    <button onclick="addSubject()">Add Subject</button>
+                </div>
+                <div class="subject-wrapper">
+                    <div id="subjectCards"></div>
+                </div>
+            </div>
 
-            <div lass="section">
+            <div class="section">
                 <h3>Search & Filter</h3>
-                <input id="search" placeholder="Search Student">
-                <select id="filter">
-                    <option value="">All</option>
-                    <option value="PASS">PASS</option>
-                    <option value="FAIL">FAIL</option>
-                </select>
-                <button onclick="loadStudents()">Search</button>
+                <div class="search-row">
+                    <input id="search" placeholder="Search Student">
+                    <select id="filter">
+                        <option value="">All</option>
+                        <option value="PASS">PASS</option>
+                        <option value="FAIL">FAIL</option>
+                    </select>
+                    <button onclick="loadStudents()">Search</button>
+                </div>
             </div>
 
             <table>

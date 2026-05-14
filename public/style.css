@@ -145,3 +145,72 @@ table td {
 tr:nth-child(even) {
     background: #f1f8f1;
 }
+.subject-wrapper {
+    width: 300px;   
+}
+#subjectName {
+    width: 100%;
+    box-sizing: border-box;
+}
+#subjectCards {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+.subject-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 10px;
+    border-radius: 6px;
+    background: #f4f6f8;
+    border: 1px solid #ddd;
+    width: 100%;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+.subject-card:hover {
+    background: #e9f5ff;
+}
+.input-row {
+    display: flex;
+    width: 60%;
+    gap: 10px;
+}
+.input-row input {
+    flex: 1;
+    min-width: 0; 
+}
+.input-row button {
+    flex-shrink: 0;
+}
+#cardbutton {
+    all: unset;          
+    cursor: pointer;
+    color: red;
+    font-size: 16px;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+#cardbutton:hover {
+    background: #ffe5e5;
+}
+.search-row {
+    display: flex;
+    width: 60%;          
+    gap: 10px;
+    align-items: center;
+}
+.search-row input {
+    flex: 2;
+    min-width: 0;
+}
+.search-row select {
+    flex: 1;
+}
+.search-row button {
+    flex-shrink: 0;
+    width: 110px;
+    cursor: pointer;
+}
