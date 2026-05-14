@@ -214,3 +214,24 @@ tr:nth-child(even) {
     width: 110px;
     cursor: pointer;
 }
+.subject-actions {
+    display: flex;
+    gap: 6px;
+}
+
+.editbtn,
+.cardbutton {
+    all: unset;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.editbtn:hover {
+    background: #e0f0ff;
+}
+
+.cardbutton:hover {
+    background: #ffe5e5;
+}

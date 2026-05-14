@@ -1,5 +1,5 @@
-const API = "https://adithyavmohan.onrender.com";
-// const API = "http://localhost:5000";
+// const API = "https://adithyavmohan.onrender.com";
+const API = "http://localhost:5000";
 
 async function loadSubjects() {
     const res = await fetch(`${API}/api/subjects`);
@@ -16,7 +16,18 @@ async function loadSubjects() {
         container.innerHTML += `
             <div class="subject-card">
                 <span>${s.subjectName}</span>
-                <button id="cardbutton" onclick="deleteSubject('${s._id}')">❌</button>
+
+                <div class="subject-actions">
+                    <button class="editbtn"
+                        onclick="editSubject('${s._id}','${s.subjectName}')">
+                        ✏️
+                    </button>
+
+                    <button class="cardbutton"
+                        onclick="deleteSubject('${s._id}')">
+                        ❌
+                    </button>
+                </div>
             </div>
         `;
     });
@@ -26,7 +37,8 @@ async function deleteSubject(id) {
     await fetch(`${API}/api/subjects/${id}`, {
         method: "DELETE"
     });
-    loadSubjects(); 
+    loadSubjects();
+    loadStudents();
 }
 
 async function addSubject() {
@@ -173,6 +185,32 @@ function updateRemarks(inputId, outputId) {
     const grade = document.getElementById(inputId).value;
     document.getElementById(outputId).innerText =
         grade >= 75 ? "PASS" : "FAIL";
+}
+
+async function editSubject(id, oldName) {
+
+    const newName = prompt("Edit Subject Name", oldName);
+
+    if (!newName) return;
+
+    // validation
+    if (!/^[a-zA-Z\s]+$/.test(newName)) {
+        alert("Subject name must contain only letters");
+        return;
+    }
+
+    await fetch(`${API}/api/subjects/${id}`, {
+        method: "PUT",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            subjectName: newName
+        })
+    });
+
+    loadSubjects();
+    loadStudents();
 }
 
 window.onload = () => {
