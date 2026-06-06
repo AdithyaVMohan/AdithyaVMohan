@@ -1,0 +1,57 @@
+To develop a full eCommerce application (front-end and back-end) using React and NodeJS with a custom-built API and server, based on the Figma design.
+
+
+Set Up Project:
+
+Structure the project with client (React) and server (NodeJS).
+
+UI Design (Front-End):
+
+Use the Figma design for the front-end. Implement Home, Product Listing, Product Detail, Cart, and Login pages.
+
+API Development (Back-End):
+
+Use Express to create a RESTful API.
+
+Define the following API endpoints:
+
+GET /products: Fetch a list of products.
+
+GET /products/:id: Fetch details of a specific product.
+
+POST /auth/login: Handle user login.
+
+POST /auth/register: Handle user registration.
+
+POST /cart: Add products to the cart.
+
+GET /orders: Fetch the user’s order history.
+
+Use Postgresql to store and retrieve product, user, and order data.
+
+Database (Postgresql):
+
+Define database schemas for Products, Users, and Orders.
+
+Populate the database with sample product data.
+
+State Management:
+
+Use Redux to manage global states (e.g., user authentication, cart).
+
+Handle asynchronous API calls using redux-thunk or redux-saga.
+
+Authentication:
+
+Implement JWT-based authentication for login and registration.
+
+Protect routes like "Checkout" to allow access only for logged-in users.
+
+Cart and Order Management:
+
+Build a Cart system where users can add/remove products and proceed to checkout.
+
+Create an Order Summary page where users can finalize their purchase.
+
+FIGMA:
+https://www.figma.com/design/d8lcmGLDI4pCl8j22B9T5d/E-commerce-Website-Template-(Freebie)-(Community)?node-id=0-1&node-type=CANVAS&t=zrtHrmFB4KlcbGxW-0
