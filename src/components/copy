@@ -1,0 +1,233 @@
+import styles from "./Home.module.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faPhone} from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import '@fortawesome/fontawesome-svg-core/styles.css';
+
+function Home() {
+  return (
+    <div className={`container-fluid ${styles.maindiv}`}>
+      <div className="row align-items-center justify-content-center">
+
+        {/* Image Section */}
+        <div className="col-12 col-md-4 text-center mb-4 mb-md-0">
+          <img
+            className={styles.profilephoto}
+            src="/images/adhiss.png"
+            alt="Profile"
+          />
+        </div>
+
+        {/* Content Section */}
+        <div className="col-12 col-md-8 text-center text-md-start">
+
+          <div className={styles.myname}>
+            <p>ADITHYA V MOHAN</p>
+          </div>
+
+          <div className={styles.subtitle}>
+            <p>MERN Stack Developer</p>
+          </div>
+
+          <div className="mt-3">
+
+            <div className="d-flex flex-wrap justify-content-center justify-content-md-start align-items-center gap-3">
+
+              <div className="d-flex align-items-center gap-2">
+                <FontAwesomeIcon icon={faEnvelope} />
+                <p className="mb-0">ADITHYAVMOHAN@GMAIL.COM</p>
+              </div>
+
+              <div className="d-flex align-items-center gap-2">
+                <FontAwesomeIcon icon={faPhone} />
+                <p className="mb-0">+971 563787981</p>
+              </div>
+
+            </div>
+
+            <div className="mt-3">
+              <a
+                href="https://www.linkedin.com/in/adithyavmohan"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.link}
+              >
+                <FontAwesomeIcon icon={faLinkedin} className="me-2" />
+                www.linkedin.com/in/adithyavmohan
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  );
+}
+
+export default Home;
+
+
+
+.maindiv {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sub1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.profilephoto {
+  border-radius: 50%;
+  width: 430px;
+  max-width: 100%;
+  height: auto;
+}
+
+.sub2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.myname {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 900;
+  font-size: 65px;
+}
+
+.myname p {
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+  color: #030fbc;
+  padding-left: 60px;
+  margin-top: 10px;
+}
+
+.subtitle p {
+  margin: 0;
+}
+
+.emaildiv {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+.emaildiv p {
+  margin: 0;
+}
+
+.icon1 {
+  color: #cc0909;
+}
+
+.icon2 {
+  color: #05a91d;
+  margin-left: 20px;
+}
+
+.icon3 {
+  color: #0a66c2;
+  font-size: 20px;
+}
+
+.linkin {
+  padding-top: 35px;
+  padding-left: 20px;
+}
+
+.linkin a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* ---------- Tablet ---------- */
+
+@media (max-width: 992px) {
+  .profilephoto {
+    width: 320px;
+  }
+
+  .myname {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: 24px;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .sub2 {
+    align-items: center;
+  }
+
+  .emaildiv {
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .linkin {
+    padding-left: 0;
+  }
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 600px) {
+  .sub1 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profilephoto {
+    width: 240px;
+  }
+
+  .myname {
+    font-size: 34px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+
+  .emaildiv {
+    flex-direction: column;
+    padding-top: 25px;
+  }
+
+  .icon2 {
+    margin-left: 0;
+  }
+
+  .linkin a {
+    justify-content: center;
+    word-break: break-word;
+  }
+}

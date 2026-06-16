@@ -26,6 +26,9 @@ function Navbar() {
             <li className="nav-item mx-4">
               <NavLink to="/Certifications" className="nav-link">Certifications</NavLink>
             </li>
+            <li className="nav-item ms-lg-3">
+              <a href="/AdithyaVMohan_MERN_Stack_Developer.pdf" download="AdithyaVMohan_MERN_Stack_Developer.pdf" className="btn btn-success">Download CV</a>
+            </li>
           </ul>
         </div>
       </div>

@@ -37,7 +37,7 @@ function Experience() {
           <div className="card-body">
             <h4 className="card-title">Accenture Solutions Private Ltd, India</h4>
             <p className="card-text">
-              <strong>Position:</strong> Data Engineering Analyst
+              <strong>Position:</strong> Application Development Analyst
             </p>
             <p className="card-text">
               <strong>Duration:</strong> 2021 – 2025
@@ -65,7 +65,7 @@ function Experience() {
           <div className="card-body">
             <h4 className="card-title">Nuroil Trading LLC, Sharjah</h4>
             <p className="card-text">
-              <strong>Position:</strong> .Net Programmer
+              <strong>Position:</strong> Application Developer
             </p>
             <p className="card-text">
               <strong>Duration:</strong> 2020
