@@ -12,14 +12,13 @@
   width: 100%;
   max-width: 350px;
   object-fit: cover;
-
-  /* ❌ REMOVE padding-top / padding-left */
 }
 .myname {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 900;
   font-size: 45px;
   margin: 0;
+  white-space: nowrap;
 }
 .customNavItem{
   font-family:'Courier New', Courier, monospace;
@@ -29,8 +28,6 @@
   align-items: center;
   justify-content: center;
   gap: 60px;
-
-  /* ⭐ this keeps everything centered */
   max-width: 1100px;
   width: 100%;
 }
@@ -38,7 +35,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;  /* desktop alignment */
+  align-items: flex-start; 
   max-width: 500px;
 }
 .sub3{
@@ -46,7 +43,7 @@
 }
 
 .subtitle{
-  font-size: 28px;
+  font-size: 26px;
   font-family:'Courier New', Courier, monospace;
   font-weight: 500;
   padding-top: 0;
@@ -71,6 +68,7 @@
   gap: 12px;
   font-family: 'Courier New', Courier, monospace;
   margin-top: 20px;
+  padding-left: 70px;
 }
 .contactItem {
   display: flex;
@@ -109,6 +107,36 @@
   text-decoration: none;
   padding-left:35px;
 } 
+
+@media (max-width: 900px) {
+  .sub1 {
+    flex-direction: column;
+    text-align: center;
+    gap: 35px;
+  }
+
+  .sub2 {
+    align-items: center;
+  }
+
+  .subtitle {
+    padding-left: 0;
+  }
+
+  .contactBox {
+    padding-left: 0;
+  }
+
+  .profilephoto {
+    max-width: 320px;
+  }
+
+  .myname {
+    white-space: normal;
+    text-align: center;
+    font-size: 40px;
+  }
+}
 @media (max-width: 768px) {
   .sub1 {
     flex-direction: column;
@@ -128,10 +156,11 @@
   .subtitle {
     padding-left: 0;
     margin-left: 0;
+    font-size: 20px;
   }
 
   .profilephoto {
-    max-width: 250px;
+    max-width: 300px;
   }
 }
 
@@ -145,7 +174,7 @@
   .subtitle {
     font-size: 18px;
     padding-left: 0;
-    line-height: 1.2;   /* ⭐ FIX OVERLAP */
+    line-height: 1.2;  
     text-align: center;
     margin-top: 5px;
   }
@@ -155,11 +184,10 @@
   }
 
   .profilephoto {
-    max-width: 220px;
+    max-width: 280px;
   }
-
-  .contactItem {
-    justify-content: center;
+  .contactBox{
+    padding-left: 0;
   }
 }
 
