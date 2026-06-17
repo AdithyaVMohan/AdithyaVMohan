@@ -21,7 +21,7 @@ function Projects() {
                 Collaborated in a structured development workflow using Git and GitHub for version control and project tracking.
               </p>
 
-              <p className="card-text"><strong>Technologies:</strong> React.js, Node.js, Express.js, MongoDB, JWT, Bootstrap, Git, GitHub, PostgreSQL, Next.js, Material UI</p>
+              <p className="card-text"><strong>Technologies:</strong> React.js, Node.js, Express.js, MongoDB, JWT, Bootstrap, Git, GitHub, PostgreSQL, Next.js, Material UI, Redux, HTML, CSS, Javascript, REST APIs</p>
             </div>
           </div>
         </section>
