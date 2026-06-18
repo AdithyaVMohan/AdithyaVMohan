@@ -22,7 +22,14 @@
 html {
   scroll-behavior: smooth;
 }
-
+@media (max-width: 768px) {
+  .app-background {
+    background-size: contain;
+    background-repeat: repeat-y;
+    background-position: top center;
+    background-attachment: scroll;
+  }
+}
 #home,
 #about,
 #projects,
