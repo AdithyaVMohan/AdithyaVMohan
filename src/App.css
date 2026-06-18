@@ -38,21 +38,19 @@ html {
 }
 
 @media (max-width: 991px) {
-  .navbar .navbar-collapse.show {
+    .navbar .navbar-collapse {
     position: absolute;
     top: 60px;
     right: 10px;
+    left: auto;
 
     background: #000;
-    padding: 10px;
+    padding: 12px 18px;
     border-radius: 12px;
+    width: max-content;
+    z-index: 100000;
 
-    width: auto;
-    height: auto !important;
-    min-height: unset !important;
-    max-height: fit-content !important;
-
-    flex-grow: 0 !important;
+    transition: none !important;
   }
 
   .navbar .navbar-nav {
