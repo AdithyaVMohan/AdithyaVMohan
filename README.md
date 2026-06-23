@@ -14,12 +14,14 @@ Passionate Full Stack Developer with experience in building web applications usi
 
 ## 💼 Professional Experience
 
-### Accenture – Application Support Analyst
+### Accenture – Application Development Analyst
 
-* Provided L2/L3 support for enterprise applications, resolving production issues and ensuring system availability.
-* Collaborated with development teams to analyze defects, troubleshoot APIs, and implement application enhancements.
-* Worked with SQL databases, application logs, and deployment processes to support business-critical systems.
-* Participated in Agile development and release cycles, contributing to application improvements and defect fixes.
+* Contributed to development and enhancement of enterprise web applications across front-end and back-end components.
+* Developed UI features using React, JavaScript, HTML, CSS, and Bootstrap, improving functionality and user experience.
+* Worked on backend and database changes using SQL Server, MySQL, and MSSQL, ensuring data integrity and performance optimization.
+* Handled end-to-end change requests, including requirement analysis, development, testing, and deployment in multiple environments.
+* Performed debugging, root-cause analysis, and production issue resolution through log analysis and performance monitoring.
+* Collaborated with cross-functional teams and supported CI/CD pipelines, Git workflows, and GCP-based deployments.
 
 ### Nuroil LLC – Software Developer
 
