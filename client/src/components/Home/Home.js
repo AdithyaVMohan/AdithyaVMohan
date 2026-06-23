@@ -20,7 +20,7 @@ function Home() {
   return (
     <div style={styles.page}>
       
-      {/* CAROUSEL (NORMAL SIZE - NOT STRETCHED) */}
+      {/* CAROUSEL */}
       <div style={styles.carouselWrapper}>
         <Carousel fade interval={2500}>
           <Carousel.Item>

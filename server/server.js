@@ -21,7 +21,7 @@ app.use("/api/v1/users", users);
 app.use("/api/v1/products", productRoutes);
 app.use("/api/v1/cart", cart);
 
-// Error handler (must be last)
+// Error handler
 const errorHandler = require("./middleware/errorHandler");
 app.use(errorHandler);
 

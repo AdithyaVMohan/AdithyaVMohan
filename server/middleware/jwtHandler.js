@@ -1,7 +1,7 @@
 const { verifyToken } = require('../utils/jwtHelper');
 const { getUserRolesByUserId } = require("../Repositories/users");
 
-// ✅ AUTH MIDDLEWARE
+// AUTH MIDDLEWARE
 const verifyTokenHandler = async (req, res, next) => {
     let token = req.headers['authorization'];
 
@@ -16,7 +16,6 @@ const verifyTokenHandler = async (req, res, next) => {
             return res.status(401).json({ message: 'Invalid token' });
         }
 
-        // ✅ IMPORTANT FIX (single source of truth)
         req.userId = result.userid;
         console.log("VERIFY RESULT:", result);
         return next();
@@ -28,11 +27,11 @@ const verifyTokenHandler = async (req, res, next) => {
 
 
 
-// ✅ ROLE CHECK MIDDLEWARE
+// ROLE CHECK MIDDLEWARE
 const verifyRoles = (roles) => {
     return async (req, res, next) => {
 
-        const userid = req.userId; // ✅ FIX HERE
+        const userid = req.userId; 
 
         const userRoles = await getUserRolesByUserId(userid);
 
