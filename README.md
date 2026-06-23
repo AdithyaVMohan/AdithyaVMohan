@@ -1,19 +1,93 @@
-<<<<<<< HEAD
-<h1 align="center">Hi 👋, I'm Adithya V Mohan</h1>
-<h3 align="center">A passionate Full Stack developer</h3>
+# Hi 👋, I'm Adithya V Mohan
 
-- 🌱 I’m currently learning **Mern Stack Development**
+### Full Stack Developer | React.js | Node.js | PostgreSQL
 
-- 📫 How to reach me **adithyavmohan@gmail.com**
+Passionate Full Stack Developer with experience in building web applications using React, Node.js, Express, and PostgreSQL. I have worked across application development, API integration, database management, and enterprise application support, delivering solutions in both product and corporate environments.
 
-- 📄 Know about my experiences [Application support analyst at Accenture handling L3 & L2 support](Application support analyst at Accenture handling L3 & L2 support)
+## 🚀 About Me
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/www.linkedin.com/in/adithyavmohan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/adithyavmohan" height="30" width="40" /></a>
-</p>
+* 💻 Full Stack Developer specializing in React.js, Node.js, Express.js, and PostgreSQL
+* 🌱 Continuously learning modern web technologies and cloud platforms
+* 🔭 Built and deployed a full-stack E-Commerce application with authentication, cart management, and order processing
+* 📍 Currently based in UAE and seeking Full Stack Developer opportunities
+* 📫 Email: **[adithyavmohan@gmail.com](mailto:adithyavmohan@gmail.com)**
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> </p>
+## 💼 Professional Experience
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=adithyavmohan&show_icons=true&locale=en&layout=compact" alt="adithyavmohan" /></p>npnp
+### Accenture – Application Support Analyst
+
+* Provided L2/L3 support for enterprise applications, resolving production issues and ensuring system availability.
+* Collaborated with development teams to analyze defects, troubleshoot APIs, and implement application enhancements.
+* Worked with SQL databases, application logs, and deployment processes to support business-critical systems.
+* Participated in Agile development and release cycles, contributing to application improvements and defect fixes.
+
+### Nuroil LLC – Software Developer
+
+* Developed and maintained business applications using .NET technologies and SQL databases.
+* Worked on feature enhancements, bug fixes, and application optimization.
+* Collaborated with stakeholders to gather requirements and deliver technical solutions.
+* Assisted in database design, reporting, and system integration activities.
+
+## 🛠️ Technical Skills
+
+### Frontend
+
+* React.js
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* Bootstrap
+* Redux
+
+### Backend
+
+* Node.js
+* Express.js
+* REST APIs
+* JWT Authentication
+* MVC Architecture
+* C#
+* ASP.NET
+
+### Database
+
+* PostgreSQL
+* MySQL
+* SQL Server
+
+### Cloud & Deployment
+
+* AWS (EC2, S3)
+* Google Cloud Platform (GCP)
+* Vercel
+* Netlify
+* Render
+
+### DevOps & Tools
+
+* Git & GitHub
+* Docker
+* CI/CD
+* Postman
+
+### Methodologies
+
+* Agile (Scrum)
+
+## 📂 Featured Project
+
+### E-Commerce Web Application
+
+* Developed a full-stack e-commerce platform using React, Node.js, Express, Redux, JWT, and PostgreSQL.
+* Implemented secure authentication, product management, shopping cart, and order management functionality.
+* Designed RESTful APIs and database schemas for users, products, and orders.
+* Deployed the application using modern cloud deployment platforms.
+
+## 🔗 Connect With Me
+
+* LinkedIn: www.linkedin.com/in/adithyavmohan
+* GitHub: github.com/AdithyaVMohan
+
+## 📊 GitHub Statistics
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=AdithyaVMohan\&show_icons=true\&layout=compact)
