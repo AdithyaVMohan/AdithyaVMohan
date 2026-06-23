@@ -46,8 +46,6 @@ Passionate Full Stack Developer with experience in building web applications usi
 * REST APIs
 * JWT Authentication
 * MVC Architecture
-* C#
-* ASP.NET
 
 ### Database
 
@@ -57,22 +55,16 @@ Passionate Full Stack Developer with experience in building web applications usi
 
 ### Cloud & Deployment
 
-* AWS (EC2, S3)
 * Google Cloud Platform (GCP)
 * Vercel
-* Netlify
 * Render
 
 ### DevOps & Tools
 
 * Git & GitHub
-* Docker
 * CI/CD
 * Postman
 
-### Methodologies
-
-* Agile (Scrum)
 
 ## 📂 Featured Project
 
