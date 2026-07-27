@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import '@fortawesome/fontawesome-svg-core/styles.css';
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function Home() {
   return (
@@ -22,7 +23,7 @@ function Home() {
           </div>
 
           <div className={styles.subtitle}>
-            <p>MERN Stack Developer</p>
+            <p className="sub">Frontend & MERN Stack Developer</p>
           </div>
 
           {/* CONTACT */}
@@ -44,6 +45,17 @@ function Home() {
               >
                 <FontAwesomeIcon icon={faLinkedin} className={styles.icon3} />
                 <span>LinkedIn Profile</span>
+              </a>
+            </div>
+            <div className={styles.contactItem}>
+              <a
+                href="https://github.com/AdithyaVMohan/AdithyaVMohan"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.github}
+              >
+                <FontAwesomeIcon icon={faGithub} className={styles.icon3} />
+                <span>GitHub</span>
               </a>
             </div>
           </div>

@@ -9,16 +9,11 @@ function AboutMe() {
             <h4 className="card-title">Summary</h4>
 
             <p>
-                Full Stack Developer specializing in the MERN stack, with hands-on experience building web applications using MongoDB, 
-                Express.js, React.js, and Node.js. Skilled in developing responsive user interfaces, designing RESTful APIs, integrating databases, 
-                and building end-to-end web solutions. 
+                I'm a <b>Full Stack Developer</b> with hands-on experience building modern, responsive web applications using the <b>MERN stack (MongoDB, Express.js, React.js, and Node.js)</b>. I enjoy creating intuitive user interfaces, developing secure RESTful APIs, and delivering scalable end-to-end solutions.
                 <br/>
-                Bringing over 4 years of experience in enterprise application support and software environments, with strong expertise in SQL, 
-                production support, incident resolution, and system analysis. Experienced in troubleshooting critical issues, supporting business 
-                applications, and working with cross-functional teams to ensure reliable system performance. 
+                Before transitioning into full-stack development, I spent over <b>4 years at Accenture</b>, where I gained valuable experience working with enterprise applications, SQL, production support, incident management, and cross-functional teams. This background has strengthened my problem-solving skills and ability to deliver reliable software in fast-paced environments.
                 <br/>
-                Combining enterprise experience with modern full-stack development skills to build scalable and user-friendly applications. 
-                Actively seeking Full Stack Developer opportunities in Dubai and the UAE.
+                I'm currently based in <b>Sharjah, UAE</b>, with independent work authorisation, and I'm actively seeking <b>Full Stack, MERN Stack, or Frontend Developer</b> opportunities across the UAE.
             </p>
 
           </div>
@@ -32,39 +27,25 @@ function AboutMe() {
             <h4 className="card-title">Skills</h4>
             <div className="row g-3">
                 <div className="col-12">
-                <h5 className="mb-2">MERN Stack</h5>
-                <span className="badge bg-primary me-2 mb-2">MongoDB</span>
-                <span className="badge bg-primary me-2 mb-2">Express.js</span>
-                <span className="badge bg-primary me-2 mb-2">React</span>
-                <span className="badge bg-primary me-2 mb-2">Node.js</span>
-                <span className="badge bg-primary me-2 mb-2">JavaScript (ES6+)</span>
-                <span className="badge bg-primary me-2 mb-2">RESTful API Development</span>
-                <span className="badge bg-primary me-2 mb-2">JWT Authentication & Authorization</span>
-                <span className="badge bg-primary me-2 mb-2">Server-side Validation</span>
-                <span className="badge bg-primary me-2 mb-2">JSON</span>
+                <h5 className="mb-2">Frontend</h5>
+                <span className="badge bg-primary me-2 mb-2">React.js</span>
+                <span className="badge bg-primary me-2 mb-2">Next.js</span>
+                <span className="badge bg-primary me-2 mb-2">TypeScript</span>
+                <span className="badge bg-primary me-2 mb-2">JavaScript</span>
+                <span className="badge bg-primary me-2 mb-2">HTML5</span>
+                <span className="badge bg-primary me-2 mb-2">CSS3</span>
+                <span className="badge bg-primary me-2 mb-2">Bootstrap</span>
+                <span className="badge bg-primary me-2 mb-2">Material UI</span>
                 </div>
 
                 <div className="col-12">
-                <h5 className="mb-2">Core Skills</h5>
-                <span className="badge bg-success me-2 mb-2">Full Stack Web Development</span>
-                <span className="badge bg-success me-2 mb-2">Frontend Development</span>
-                <span className="badge bg-success me-2 mb-2">Backend Development</span>
-                <span className="badge bg-success me-2 mb-2">Responsive Web Design</span>
-                <span className="badge bg-success me-2 mb-2">API Integration</span>
-                <span className="badge bg-success me-2 mb-2">Database Design & Management</span>
-                <span className="badge bg-success me-2 mb-2">CRUD Operations</span>
-                <span className="badge bg-success me-2 mb-2">Debugging & Troubleshooting</span>
-                <span className="badge bg-success me-2 mb-2">Cross-functional Collaboration</span>
-                <span className="badge bg-success me-2 mb-2">Application Support</span>
-                <span className="badge bg-success me-2 mb-2">Production Support</span>
-                <span className="badge bg-success me-2 mb-2">SLA Management</span>
-                <span className="badge bg-success me-2 mb-2">IT Service Management (ITSM)</span>
-                <span className="badge bg-success me-2 mb-2">IT Service Operations</span>
-                <span className="badge bg-success me-2 mb-2">Incident Management</span>
-                <span className="badge bg-success me-2 mb-2">Problem Management</span>
-                <span className="badge bg-success me-2 mb-2">Change & Release Management</span>
-                <span className="badge bg-success me-2 mb-2">Stakeholder Management</span>
-                <span className="badge bg-success me-2 mb-2">Escalation Management</span>
+                <h5 className="mb-2">Backend</h5>
+                <span className="badge bg-success me-2 mb-2">Node.js</span>
+                <span className="badge bg-success me-2 mb-2">Express.js</span>
+                <span className="badge bg-success me-2 mb-2">REST APIs</span>
+                <span className="badge bg-success me-2 mb-2">JWT Authentication</span>
+                <span className="badge bg-success me-2 mb-2">Server-side Validation</span>
+                <span className="badge bg-success me-2 mb-2">JSON</span>
                 </div>
 
                 <div className="col-12">
@@ -72,52 +53,29 @@ function AboutMe() {
 
                 {/* Frontend */}
                 <div className="mb-3">
-                  <h6 className="fw-bold text-primary">Frontend Technologies</h6>
-                  <span className="badge bg-info text-dark me-2 mb-2">HTML5</span>
-                  <span className="badge bg-info text-dark me-2 mb-2">CSS3</span>
-                  <span className="badge bg-info text-dark me-2 mb-2">Bootstrap</span>
-                  <span className="badge bg-info text-dark me-2 mb-2">Material UI</span>
-                  <span className="badge bg-info text-dark me-2 mb-2">TypeScript</span>
-                  <span className="badge bg-info text-dark me-2 mb-2">Next.js</span>
+                  <h6 className="fw-bold text-primary">Databases</h6>
+                  <span className="badge bg-info text-dark me-2 mb-2">MongoDB</span>
+                  <span className="badge bg-info text-dark me-2 mb-2">PostgreSQL</span>
+                  <span className="badge bg-info text-dark me-2 mb-2">SQL Server</span>
+                  <span className="badge bg-info text-dark me-2 mb-2">MySQL</span>
                 </div>
 
                 {/* Database */}
                 <div className="mb-3">
-                  <h6 className="fw-bold text-primary">Database Technologies</h6>
-                  <span className="badge bg-info text-dark me-2 mb-2">PostgreSQL</span>
-                  <span className="badge bg-info text-dark me-2 mb-2">SQL Server</span>
-                  <span className="badge bg-info text-dark me-2 mb-2">MSSQL</span>
-                  <span className="badge bg-info text-dark me-2 mb-2">MySQL</span>
-                </div>
-
-                {/* Version Control */}
-                <div className="mb-3">
-                  <h6 className="fw-bold text-primary">Version Control & Tools</h6>
+                  <h6 className="fw-bold text-primary">Tools</h6>
                   <span className="badge bg-info text-dark me-2 mb-2">Git</span>
                   <span className="badge bg-info text-dark me-2 mb-2">GitHub</span>
+                  <span className="badge bg-info text-dark me-2 mb-2">Postman</span>
                   <span className="badge bg-info text-dark me-2 mb-2">Confluence</span>
+                  <span className="badge bg-info text-dark me-2 mb-2">VS Code</span>
                 </div>
+
 
                 {/* Cloud */}
                 <div className="mb-3">
                   <h6 className="fw-bold text-primary">Cloud & Platforms</h6>
                   <span className="badge bg-info text-dark me-2 mb-2">AWS</span>
                   <span className="badge bg-info text-dark me-2 mb-2">GCP</span>
-                </div>
-
-                {/* Programming */}
-                <div className="mb-3">
-                  <h6 className="fw-bold text-primary">Programming & Scripting</h6>
-                  <span className="badge bg-info text-dark me-2 mb-2">JavaScript</span>
-                  <span className="badge bg-info text-dark me-2 mb-2">PowerShell</span>
-                  <span className="badge bg-info text-dark me-2 mb-2">Bash</span>
-                </div>
-
-                {/* Testing */}
-                <div>
-                  <h6 className="fw-bold text-primary">Testing</h6>
-                  <span className="badge bg-info text-dark me-2 mb-2">Manual Testing</span>
-                  <span className="badge bg-info text-dark me-2 mb-2">API Testing</span>
                 </div>
               </div>
             </div>
