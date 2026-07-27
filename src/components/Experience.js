@@ -9,24 +9,27 @@ function Experience() {
           <div className="card-body">
             <h4 className="card-title">Upcode Software Labs, Kerala</h4>
             <p className="card-text">
-              <strong>Position:</strong> Intern – MERN Stack Developer
+              <strong>Position:</strong> MERN Stack Developer
             </p>
             <p className="card-text">
               <strong>Duration:</strong> November 2025 – Present
             </p>
-
-            <p className="card-text"><strong>Key Responsibilities & Achievements:</strong></p>
+            <p className="card-text">
+              Developing scalable full-stack web applications using React.js, Node.js, Express.js, and MongoDB. Building reusable UI components, REST APIs, JWT authentication, and database-driven features while following modern development practices.
+            </p>
+            <p className="card-text"><strong>Highlights</strong></p>
             <ul className="ps-3">
-              <li>Assisting in the development and maintenance of full-stack web applications using the MERN stack (MongoDB, Express.js, React, Node.js).</li>
-              <li>Collaborating with the development team to build responsive UI components in React and integrate them with backend APIs.</li>
-              <li>Participating in code reviews, feature planning sessions, and technical discussions.</li>
-              <li>Debugging issues, writing clean code, and optimizing application performance for a better user experience.</li>
-              <li>Working with RESTful APIs to handle data retrieval and manipulation securely and efficiently.</li>
-              <li>Supporting backend development tasks using Node.js and Express, including routing, middleware, and database interactions with MongoDB.</li>
-              <li>Learning agile development practices and contributing to sprint deliverables.</li>
-              <li>Improving version control skills using Git and collaborating through platforms like GitHub.</li>
+              <li>🚀 Built reusable React components and responsive interfaces</li>
+              <li>🔐 Implemented JWT authentication and protected routes</li>
+              <li>⚙️ Developed REST APIs with Node.js and Express.js</li>
+              <li>🗄️ Designed MongoDB schemas and backend integrations</li>
+              <li>🔄 Collaborated using Git/GitHub workflows</li>
             </ul>
 
+            <p className="card-text"><strong>Tech Stack</strong></p>
+            <ul className="ps-3">
+              React.js • Next.js • TypeScript • Node.js • Express.js • MongoDB • JWT • REST APIs • Material UI • Git
+            </ul>
           </div>
         </div>
       </section>
@@ -42,19 +45,21 @@ function Experience() {
             <p className="card-text">
               <strong>Duration:</strong> 2021 – 2025
             </p>
-            <p className="card-text"><strong>Key Responsibilities & Achievements:</strong></p>
+            <p className="card-text">
+              Delivered enterprise web application enhancements across frontend, backend, and database layers. Worked on React-based UI development, SQL database management, production troubleshooting, cloud deployments, and automation while supporting business-critical applications.
+            </p>
+            <p className="card-text"><strong>Highlights</strong></p>
             <ul className="ps-3">
-              <li>Served as the primary point of contact for incident management, handling multiple incidents and resolving complex technical issues promptly.</li>
-              <li>Developed, analyzed, and debugged intricate software and system issues to ensure timely delivery of fixes.</li>
-              <li>Functioned as a subject-matter expert for internal web applications, mentoring L2 and L3 support teams.</li>
-              <li>Independently managed monthly change requests — implemented front-end and back-end code updates with thorough testing in local and production environments.</li>
-              <li>Conducted root-cause analysis and in-depth troubleshooting, trained end-users on updates, and provided continuous assistance, improving user satisfaction and adoption.</li>
-              <li>Managed support tickets effectively via ServiceNow and Jira, ensuring accurate documentation and accountability.</li>
-              <li>Collaborated with cross-functional teams to implement preventive measures, significantly reducing incident recurrence.</li>
-              <li>Utilized Microsoft Office tools to document, report, and resolve issues comprehensively.</li>
-              <li>Demonstrated expertise in log and error monitoring, root cause identification, and resolution strategies.</li>
-              <li>Contributed to enhancement of multiple Royal Mail web applications through code updates in ASP.NET Core (C#), using Visual Studio; backend support on MSSQL and deployments via GCP and PowerShell.</li>
-              <li>Handled monthly Change Requests — writing, testing (local & production), deploying to production, and pushing code updates to Git for version control and CI/CD workflows.</li>
+              <li>💻 Built and enhanced enterprise web application features using React.js and JavaScript</li>
+              <li>🗄️ Managed SQL Server, MySQL, and MSSQL database changes</li>
+              <li>🔍 Resolved production issues through debugging and root-cause analysis</li>
+              <li>☁️ Automated deployment activities for GCP-hosted applications</li>
+              <li>🔄 Followed Git, CI/CD, and enterprise release processes</li>
+            </ul>
+
+            <p className="card-text"><strong>Tech Stack</strong></p>
+            <ul className="ps-3">
+             React.js • JavaScript • HTML5 • CSS3 • Bootstrap • SQL Server • MySQL • MSSQL • GCP • PowerShell • Git
             </ul>
           </div>
         </div>
@@ -70,19 +75,21 @@ function Experience() {
             <p className="card-text">
               <strong>Duration:</strong> 2020
             </p>
-
+            <p className="card-text">
+              Developed an internal HRMS platform by gathering business requirements, building application modules, designing database solutions, and creating reports to improve HR operations and decision-making.
+            </p>
             <p className="card-text"><strong>Key Responsibilities & Achievements:</strong></p>
             <ul className="ps-3">
-              <li>Collaborated with HR, IT specialists, and end-users to gather requirements and translate business needs into functional modules (onboarding, performance management, leave tracking, payroll).</li>
-              <li>Developed, tested, and implemented custom ASP.NET (C#) modules using Visual Studio and MSSQL.</li>
-              <li>Created SQL Server database tables and performed manual testing, including preparation of bug reports and troubleshooting.</li>
-              <li>Integrated the HRMS with legacy systems to ensure real-time data consistency across departments.</li>
-              <li>Conducted user training sessions and provided ongoing support, addressing queries and facilitating smooth system adoption.</li>
-              <li>Managed support tickets and tracked incidents via Jira/ServiceNow while performing root cause analysis and error logging.</li>
-              <li>Ensured accuracy and reliability of business-critical HR processes through diligent testing, monitoring, and preventive measures.</li>
-              <li>Utilized Microsoft Office tools for documentation, reporting, and audit readiness.</li>
+              <li>👥 Developed HRMS modules for onboarding, leave, payroll, and performance tracking</li>
+              <li>🗄️ Designed SQL Server database structures and backend logic</li>
+              <li>🔄 Integrated systems to maintain consistent business data</li>
+              <li>📊 Built reports and dashboards for operational insights</li>
+              <li>🧪 Performed testing and debugging before production deployment</li>
             </ul>
-
+            <p className="card-text"><strong>Tech Stack</strong></p>
+            <ul className="ps-3">
+             SQL Server • C# • .NET • JavaScript • HTML • CSS • Database Design • Reporting
+            </ul>
           </div>
         </div>
       </section>

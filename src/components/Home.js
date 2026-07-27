@@ -22,7 +22,7 @@ function Home() {
           </div>
 
           <div className={styles.subtitle}>
-            <p>MERN Stack Developer</p>
+            <p className="sub">MERN Stack Developer</p>
           </div>
 
           {/* CONTACT */}
